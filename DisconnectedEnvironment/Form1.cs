@@ -54,6 +54,7 @@ namespace DisconnectedEnvironment
             dr[5] = cbDesignation.SelectedItem;
             dr[6] = cbDepartment.SelectedItem;
             dt.Rows.Add(dr);
+
             empdetailsTableAdapter.Update(hRDataSet);
             txtCode.Text = System.Convert.ToString(dr[0]);
             txtCode.Enabled = false;
