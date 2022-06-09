@@ -80,6 +80,8 @@ namespace DisconnectedEnvironment
             txtAddress.Enabled = true;
             txtState.Enabled = true;
             txtCountry.Enabled = true;
+            cbDesignation.Enabled = true;
+            cbDepartment.Enabled = true;
             txtName.Text = "";
             txtAddress.Text = "";
             txtState.Text = "";
