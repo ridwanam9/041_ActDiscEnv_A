@@ -309,6 +309,7 @@ namespace DisconnectedEnvironment
             // 
             // cbDesignation
             // 
+            this.cbDesignation.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.empdetailsBindingSource, "cDesignation", true));
             this.cbDesignation.FormattingEnabled = true;
             this.cbDesignation.Location = new System.Drawing.Point(109, 137);
             this.cbDesignation.Name = "cbDesignation";
@@ -317,6 +318,7 @@ namespace DisconnectedEnvironment
             // 
             // cbDepartment
             // 
+            this.cbDepartment.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.empdetailsBindingSource, "cDepartment", true));
             this.cbDepartment.FormattingEnabled = true;
             this.cbDepartment.Location = new System.Drawing.Point(109, 166);
             this.cbDepartment.Name = "cbDepartment";

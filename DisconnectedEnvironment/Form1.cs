@@ -126,12 +126,14 @@ namespace DisconnectedEnvironment
             txtCountry.Enabled = false;
             cbDesignation.Enabled = false;
             cbDepartment.Enabled = false;
+            
             cbDesignation.Items.Add("MANAGER");
             cbDesignation.Items.Add("AUTHOR");
             cbDesignation.Items.Add("DESIGNER");
             cbDepartment.Items.Add("MARKETING");
             cbDepartment.Items.Add("FINANCE");
             cbDepartment.Items.Add("IDD");
+           
             cmdSave.Enabled = false;
         }
 
