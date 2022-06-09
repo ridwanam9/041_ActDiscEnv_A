@@ -82,6 +82,7 @@ namespace DisconnectedEnvironment
             txtCountry.Enabled = true;
             cbDesignation.Enabled = true;
             cbDepartment.Enabled = true;
+
             txtName.Text = "";
             txtAddress.Text = "";
             txtState.Text = "";
@@ -146,6 +147,11 @@ namespace DisconnectedEnvironment
             dr = hRDataSet.Tables["empdetails"].Rows.Find(code);
             dr.Delete();
             empdetailsTableAdapter.Update(hRDataSet);
+        }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
+        {
+
         }
     }
 }
